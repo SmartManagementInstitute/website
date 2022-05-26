@@ -1,0 +1,11 @@
+:root {
+  --color1: #e7a900;
+  --color2: #00497a;
+  --color11: black;
+  --color22: white;
+
+  --heigh-min-post: 25rem;
+  --heigh-max-post: auto;
+  --width-post: 20rem;
+  --heigh-img: 5rem;
+}
