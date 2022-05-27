@@ -6,10 +6,8 @@ export default function Banner() {
         <section className="landing__container">
             <div className="landing__container-content">
                 <div className="landing__container-content--text">
-                    <h1>Lorem ipsum, dolor sit <span>lorem</span></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci est tempore enim, velit, eligendi
-                        deserunt impedit, similique facilis non sed fuga ducimus voluptatum? Aperiam atque magni modi! Eius,
-                        et ipsa?
+                    <h1>Smart Management Institute <span>SAC</span></h1>
+                    <p>Es una sociedad conformada por un equipo multidisciplinario de profesionales con reconocida trayectoria, con especialización en diferentes áreas como el desarrollo de proyectos de inversión pública y privada.
                     </p>
                     <Link href='/page/contacto'>
                         <a className="btn">Contacto</a>

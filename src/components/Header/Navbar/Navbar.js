@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import Image from 'next/image'
+import logo from '../../../assets/img/ICONO.png'
+
 
 export default function Navbar() {
     function openMenu() {
@@ -16,9 +19,11 @@ export default function Navbar() {
         <header>
             <div className="navbar__container">
                 <div className="navbar__logo">
-                    <a href="">
-                        <i className="">
-                        </i>Smart Management Institute</a>
+                    <Image src={logo} width={30} height={30} />
+                    <Link href='/'>
+                        <a href="">Smart Management Institute</a>
+                    </Link>
+                    <a className="invisible">SMI</a>
                 </div>
                 <div className="navbar__items" id="menu">
                     <ul>
@@ -31,8 +36,8 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar__icon">
-                    <FontAwesomeIcon className="i color1" icon={faBars} id="menu-bars" onClick={openMenu}/>
-                    
+                    <FontAwesomeIcon className="i color1" icon={faBars} id="menu-bars" onClick={openMenu} />
+
                 </div>
             </div>
         </header>
